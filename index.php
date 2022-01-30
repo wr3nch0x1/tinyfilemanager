@@ -9,10 +9,10 @@ $CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":
  */
 
 //TFM version
-define('VERSION', '2.4.6');
+define('VERSION', 'Latest');
 
 //Application Title
-define('APP_TITLE', 'Tiny File Manager');
+define('APP_TITLE', 'Bug Bounty Viewer');
 
 // --- EDIT BELOW CONFIGURATION CAREFULLY ---
 
@@ -51,7 +51,9 @@ $default_timezone = 'Etc/UTC'; // UTC
 
 // Root path for file manager
 // use absolute path of directory i.e: '/var/www/folder' or $_SERVER['DOCUMENT_ROOT'].'/folder'
-$root_path = $_SERVER['DOCUMENT_ROOT'];
+#$root_path = $_SERVER['DOCUMENT_ROOT'];
+$root_path = '/opt/scanner/Reports/';
+
 
 // Root url for links in file manager.Relative to $http_host. Variants: '', 'path/to/subfolder'
 // Will not working if $root_path will be outside of server document root
